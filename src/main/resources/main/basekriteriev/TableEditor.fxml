@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="608.0" prefWidth="555.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.basekriteriev.CreatetableController">
+    <children>
+        <Button layoutX="228.0" layoutY="28.0" onAction="#createTable" prefHeight="25.0" prefWidth="114.0" text="Создать таблицу" />
+        <VBox layoutX="27.0" layoutY="64.0" prefHeight="477.0" prefWidth="132.0" spacing="10.0">
+         <children>
+                <TextField fx:id="Name1" promptText="Название столбца 1" />
+                <TextField fx:id="Name2" promptText="Название столбца 2" />
+                <TextField fx:id="Name3" promptText="Название столбца 3" />
+            <TextField fx:id="Name4" promptText="Название столбца 4" />
+            <TextField fx:id="Name5" promptText="Название столбца 5" />
+            <TextField fx:id="Name6" promptText="Название столбца 6" />
+            <TextField fx:id="Name7" promptText="Название столбца 7" />
+            <TextField fx:id="Name8" promptText="Название столбца 8" />
+            <TextField fx:id="Name9" promptText="Название столбца 9" />
+            <TextField fx:id="Name10" promptText="Название столбца 10" />
+            <TextField fx:id="Name11" promptText="Название столбца 11" />
+            <TextField fx:id="Name12" prefHeight="25.0" prefWidth="131.0" promptText="Название столбца 12" />
+         </children>
+        </VBox>
+        <TextField fx:id="tableNameField" layoutX="27.0" layoutY="28.0" prefHeight="25.0" prefWidth="188.0" promptText="Введите название таблицы" />
+      <VBox layoutX="167.0" layoutY="64.0" prefHeight="477.0" prefWidth="132.0" spacing="10.0">
+         <children>
+            <TextField fx:id="data1" promptText="Данные столбца 1" />
+            <TextField fx:id="data2" promptText="Данные столбца 2" />
+            <TextField fx:id="data3" promptText="Данные столбца 3" />
+            <TextField fx:id="data4" promptText="Данные столбца 4" />
+            <TextField fx:id="data5" promptText="Данные столбца 5" />
+            <TextField fx:id="data6" promptText="Данные столбца 6" />
+            <TextField fx:id="data7" promptText="Данные столбца 7" />
+            <TextField fx:id="data8" promptText="Данные столбца 8" />
+            <TextField fx:id="data9" promptText="Данные столбца 9" />
+            <TextField fx:id="data10" promptText="Данные столбца 10" />
+            <TextField fx:id="data11" promptText="Данные столбца 11" />
+            <TextField fx:id="data12" prefHeight="25.0" prefWidth="131.0" promptText="Данные столбца 12" />
+         </children>
+      </VBox>
+      <VBox layoutX="316.0" layoutY="64.0" prefHeight="477.0" prefWidth="132.0" spacing="10.0">
+         <children>
+            <TextField fx:id="Type1" promptText="Тип столбца 1" />
+            <TextField fx:id="Type2" promptText="Тип столбца 2" />
+            <TextField fx:id="Type3" promptText="Тип столбца 3" />
+            <TextField fx:id="Type4" promptText="Тип столбца 4" />
+            <TextField fx:id="Type5" promptText="Тип столбца 5" />
+            <TextField fx:id="Type6" promptText="Тип столбца 6" />
+            <TextField fx:id="Type7" promptText="Тип столбца 7" />
+            <TextField fx:id="Type8" promptText="Тип столбца 8" />
+            <TextField fx:id="Type9" promptText="Тип столбца 9" />
+            <TextField fx:id="Type10" promptText="Тип столбца 10" />
+            <TextField fx:id="Type11" promptText="Тип столбца 11" />
+            <TextField fx:id="Type12" prefHeight="25.0" prefWidth="131.0" promptText="Тип столбца 12" />
+         </children>
+      </VBox>
+      <Button layoutX="500.0" layoutY="64.0" mnemonicParsing="false" onAction="#a1" prefHeight="25.0" prefWidth="25.0" />
+      <Button layoutX="500.0" layoutY="99.0" mnemonicParsing="false" onAction="#a2" prefHeight="25.0" prefWidth="25.0" />
+      <Button layoutX="500.0" layoutY="134.0" mnemonicParsing="false" onAction="#a3" prefHeight="25.0" prefWidth="25.0" />
+      <Button layoutX="500.0" layoutY="169.0" mnemonicParsing="false" onAction="#a4" prefHeight="25.0" prefWidth="25.0" />
+      <Button layoutX="500.0" layoutY="204.0" mnemonicParsing="false" onAction="#a5" prefHeight="25.0" prefWidth="25.0" />
+      <Button layoutX="500.0" layoutY="239.0" mnemonicParsing="false" onAction="#a6" prefHeight="25.0" prefWidth="25.0" />
+      <Button layoutX="500.0" layoutY="278.0" mnemonicParsing="false" onAction="#a7" prefHeight="25.0" prefWidth="25.0" />
+      <Button layoutX="500.0" layoutY="312.0" mnemonicParsing="false" onAction="#a8" prefHeight="25.0" prefWidth="25.0" />
+      <Button layoutX="500.0" layoutY="345.0" mnemonicParsing="false" onAction="#a9" prefHeight="25.0" prefWidth="25.0" />
+      <Button layoutX="500.0" layoutY="379.0" mnemonicParsing="false" onAction="#a10" prefHeight="25.0" prefWidth="25.0" />
+      <Button layoutX="500.0" layoutY="415.0" mnemonicParsing="false" onAction="#a11" prefHeight="25.0" prefWidth="25.0" />
+      <Button layoutX="500.0" layoutY="451.0" mnemonicParsing="false" onAction="#a12" prefHeight="25.0" prefWidth="25.0" />
+      <Button layoutX="498.0" layoutY="28.0" mnemonicParsing="false" onAction="#All" text="All" />
+      <Button layoutX="353.0" layoutY="28.0" mnemonicParsing="false" onAction="#addTable" text="Добавить данные" />
+    </children>
+</AnchorPane>
